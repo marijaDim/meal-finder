@@ -1,0 +1,138 @@
+* {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(113, 50, 50);
+    color: white;
+    text-align: center;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+header{
+    border-bottom: 1px solid black;
+    width: 100vw;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+input{
+    width:300px ;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding-left: 10px;
+}
+
+#btnSearch{
+    height: 3rem;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#btnSearch:hover{
+    background: rgb(212, 194, 194);
+}
+
+#random{
+    height: 3rem;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#random:hover{
+    background: rgb(212, 194, 194);
+}
+
+
+
+.mealShow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.one{ 
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    margin: 0 5px 5px 5px; 
+}
+.one h2{
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.searchMeal h3{
+    margin: 20px;
+    font-size: 2rem;
+}
+.one img{
+    cursor: pointer;
+    border: 5px solid  rgb(212, 194, 194);;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.one img:hover{
+    opacity: 0.5;
+
+}
+h2:hover{
+    opacity: 1;
+    z-index: 1;
+}
+
+#mealDes{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#mealDes img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+#mealDes h2{
+    margin-bottom: 20px;
+}
+#mealDes h3{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 800px;
+    font-size: 1.1rem;
+}
+#sastojci{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+}
+.ispis{
+    border-radius: 10px;
+    background: white;
+    color:  rgb(113, 50, 50);
+    padding: 10px;
+    margin: 0 5px 5px 5px;
+}
